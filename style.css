@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.733));
 }
 
 .logo_header {
@@ -96,6 +96,7 @@ body {
         justify-items: center; 
         align-items: center;
         flex-direction: row;
+        border-radius: 40%;
         
         
     }
@@ -104,7 +105,8 @@ body {
        display: grid;
        grid-area: footer;
        justify-items: center;
-       padding-top: 20px;    
+       padding-top: 20px; 
+       background-color: black;  
    }
 
    .img {
@@ -113,6 +115,9 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
+        
+       
+    
     
        
 } 
