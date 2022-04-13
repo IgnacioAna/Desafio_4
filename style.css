@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: linear-gradient(black, rgba(0, 0, 0, 0.733));
+    background-image: linear-gradient(black, rgba(21, 1, 2, 0.922));
 }
 
 .logo_header {
@@ -87,6 +87,14 @@ body {
         display: grid;
         grid-area: imagen3;
     }
+    
+    .transform1 {
+        transform: scaleY(1.2);
+    }
+
+    .transform3 {
+        transform: scaleY(1.2);
+    }
 
     .imagenMain {
         display: flex;
@@ -96,7 +104,7 @@ body {
         justify-items: center; 
         align-items: center;
         flex-direction: row;
-        border-radius: 40%;
+        border-radius: 15%;
         
         
     }
@@ -106,7 +114,7 @@ body {
        grid-area: footer;
        justify-items: center;
        padding-top: 20px; 
-       background-color: black;  
+       background: radial-gradient(circle, rgba(18,2,2,1) 15%, rgba(57,3,11,1) 25%, rgba(101,4,21,1) 26%, rgba(129,20,38,1) 26%, rgba(47,5,12,1) 27%);
    }
 
    .img {
